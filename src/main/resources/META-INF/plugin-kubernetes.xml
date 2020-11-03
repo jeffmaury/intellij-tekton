@@ -1,0 +1,5 @@
+<idea-plugin>
+    <extensions defaultExtensionNs="com.intellij.kubernetes">
+        <crdSpecProvider implementation="com.redhat.devtools.intellij.tektoncd.kubernetes.TektonCRDSpecProvider"/>
+    </extensions>
+</idea-plugin>
